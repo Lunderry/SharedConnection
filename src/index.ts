@@ -1,6 +1,6 @@
-import { executeConnection, SharedConnection } from "./Types";
+import { executeConnection, SaveAllConnection } from "./Types";
 
-const saveAllConnection: SharedConnection.SaveAllConnection = new Map();
+const saveAllConnection: SaveAllConnection = new Map();
 let countId = 0;
 export default class {
 	private RBXScriptSignal: RBXScriptSignal;
