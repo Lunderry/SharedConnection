@@ -1,3 +1,0 @@
-[submodule "src/lib/ConnectionMeta"]
-	path = src/lib/ConnectionMeta
-	url = https://github.com/Lunderry/ConnectionMeta.git
