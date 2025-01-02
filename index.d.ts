@@ -1,6 +1,5 @@
-import { ConnectionMeta } from "./lib/ConnectionMeta";
-
-export type executeConnection = (...args: unknown[]) => unknown;
+import { ConnectionMeta } from "./src/lib/ConnectionMeta";
+import { executeConnection } from "./src/Types";
 
 declare namespace SharedConnection {
 	export class SharedConnection {
